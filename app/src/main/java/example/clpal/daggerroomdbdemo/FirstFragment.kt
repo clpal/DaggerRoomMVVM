@@ -9,6 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import example.clpal.daggerroomdbdemo.databinding.FragmentFirstBinding
 import kotlinx.android.synthetic.main.fragment_first.*
+import kotlinx.coroutines.GlobalScope
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
